@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MEMORY PATH | メモパス – 観光向けカメラレンタル × 編集動画</title>
+  <meta name="description" content="記録ではなく、記憶を。MEMORY PATH（メモパス）は、観光向けウェアラブルカメラのレンタルと、旅のハイライトを編集してお届けするサービスです。" />
+  <style>
+    :root { --fg:#0a0a0a; --bg:#ffffff; --muted:#666; --line:#eaeaea; }
+    * { box-sizing:border-box; }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Noto Sans", "Helvetica Neue", Arial, sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 24px; }
+    header { display:flex; align-items:center; justify-content:space-between; padding:8px 0 16px; border-bottom:1px solid var(--line); }
+    .logo { font-size:18px; font-weight:700; letter-spacing:.06em; }
+    .cta { display:inline-block; padding:12px 16px; border-radius:12px; border:1px solid var(--line); transition: all .2s ease; }
+    .cta:hover { transform: translateY(-1px); }
+    .hero { display:grid; grid-template-columns: 1.2fr 1fr; gap:40px; align-items:center; padding:48px 0; }
+    .h-title { font-size:40px; line-height:1.15; letter-spacing:.01em; margin:0 0 12px; }
+    .h-sub { color:var(--muted); font-size:16px; line-height:1.7; margin:0 0 24px; }
+    .card { border:1px solid var(--line); border-radius:20px; padding:20px; }
+    .grid3 { display:grid; grid-template-columns: repeat(3, 1fr); gap:16px; }
+    .grid2 { display:grid; grid-template-columns: repeat(2, 1fr); gap:16px; }
+    .kicker { font-size:12px; letter-spacing:.12em; color:var(--muted); text-transform:uppercase; }
+    .sec { padding:40px 0; }
+    .h2 { font-size:22px; margin:0 0 16px; }
+    .step { font-weight:600; margin-bottom:6px; }
+    .price { font-size:24px; font-weight:700; }
+    footer { border-top:1px solid var(--line); padding:24px 0; color:var(--muted); font-size:12px; }
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      .grid3 { grid-template-columns: 1fr; }
+      .grid2 { grid-template-columns: 1fr; }
+      .h-title { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">KYO inc.</div>
+      <a class="cta" href="#reserve">予約する / Book now</a>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="kicker">MEMORY PATH / メモパス</div>
+        <h1 class="h-title">記録ではなく、<br/>記憶を。</h1>
+        <p class="h-sub">
+          ウェアラブルカメラを“手ぶらで”レンタル。<br/>
+          旅を楽しむだけ。<br/>
+          あとは編集済みのハイライト動画をクラウドで受け取るだけ。
+        </p>
+        <div class="grid2">
+          <a class="cta" href="#how">はじめての方へ</a>
+          <a class="cta" href="#plans">料金プラン</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="kicker">For Travelers</div>
+        <p style="margin:6px 0 12px; color:#333">
+          Rent a wearable camera, enjoy your trip hands‑free,<br/>
+          and receive an edited highlight video in 2‑3 days.
+        </p>
+        <ul style="margin: 0 0 8px 16px">
+          <li>Asakusa / Shibuya / Harajuku (Tokyo)</li>
+          <li>1h / 1day / 2day plans</li>
+          <li>Cloud delivery, share‑ready</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="how" class="sec">
+      <h2 class="h2">使い方 / How it works</h2>
+      <div class="grid3">
+        <div class="card">
+          <div class="step">① 予約</div>
+          <div>LINEまたはフォームで日時を予約。<br/>当日、受け渡しスポットへ。</div>
+        </div>
+        <div class="card">
+          <div class="step">② 撮影</div>
+          <div>ウェアラブルを装着して、<br/>いつも通り楽しむだけ。</div>
+        </div>
+        <div class="card">
+          <div class="step">③ 納品</div>
+          <div>2–3日以内に編集済みショート動画を<br/>クラウドでお届け。</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans" class="sec">
+      <h2 class="h2">料金プラン / Plans</h2>
+      <div class="grid3">
+        <div class="card">
+          <div class="kicker">Spot</div>
+          <div class="price">¥3,500</div>
+          <div>1 hour</div>
+        </div>
+        <div class="card">
+          <div class="kicker">Standard</div>
+          <div class="price">¥13,500</div>
+          <div>1 day</div>
+        </div>
+        <div class="card">
+          <div class="kicker">Explore</div>
+          <div class="price">¥20,000</div>
+          <div>2 days</div>
+        </div>
+      </div>
+      <p style="color:#666; font-size:12px; margin-top:8px;">
+        * 価格は税込表記 / Tax included. 保証・弁済は利用規約をご確認ください。<br/>受け渡し場所はご希望を伺った上でメールにてご連絡します。<br/>決済方法：現金またはクレジットカード対応。
+      </p>
+    </section>
+
+    <section id="reserve" class="sec">
+      <h2 class="h2">予約 / Book now</h2>
+      <div class="grid2">
+        <a class="cta" href="https://line.me/R/ti/p/@040mthcz" target="_blank" rel="noopener">LINEで予約（公式）</a>
+        <a class="cta" href="mailto:ryotokamitakahara@icloud.com?subject=MEMORY%20PATH%20予約&body=ご希望日時・プラン・人数をご記入ください。">メールで予約</a>
+      </div>
+      <p style="margin-top:12px; color:#666">※スマホの方はアプリで開かない場合、<a href="line://ti/p/@040mthcz">こちら</a>（アプリ直リンク）をお試しください。</p>
+    </section>
+
+    <footer>
+      <div>KYO inc. / MEMORY PATH</div>
+      <div style="margin-top:4px;">LINE: @040mthcz / Email: ryotokamitakahara@icloud.com</div>
+      <div style="margin-top:4px;">© <span id="y"></span> KYO inc.</div>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
